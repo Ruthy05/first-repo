@@ -1,0 +1,548 @@
+body{
+    margin:0%;
+}
+
+
+.container1 {
+    width:1440px;
+    background-image:url(../image/hero-background.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    height:800px;
+    margin:0%;
+  }
+  
+  .container2{
+    width:1440px;
+   background-image: url(../image/hero2.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    height: 800px;
+    margin: 0%;
+    position:absolute;
+    }
+
+
+
+nav {
+    width: 1440px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+nav img {
+    margin-left: 80px;
+    margin-top: 29px;
+}
+
+nav .left-side {
+    float: left;
+    width: 630px;
+}
+
+nav .right-side {
+    float: left;
+    width: 724px;
+    margin-top: 34px;
+}
+
+nav .top-nav-menu {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #616D78;
+    margin-right: 20px;
+
+}
+
+nav .top-nav-menu-button {
+    width: 175px;
+    height: 50px;
+    padding: 14px 15px 14px 15px;
+    border-radius: 5px;
+    border: 2px solid;
+    border-color: #27678A;
+    opacity: 0px;
+    font-family: Poppins;
+    color: #27678A;
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 23px;
+    background: white;
+}
+
+.container1  h2{
+font-family: Poppins;
+font-size: 64px;
+font-weight: 700;
+line-height: 86px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background: -webkit-gradient(linear, left top, left bottom, from(#27678A),
+to(#29224A)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+}
+.container1  p{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(122, 136, 144, 1);
+
+}
+
+
+.box{
+width: 628px;
+height: 1100px;
+padding-top: 50px;
+margin-left: 406px;
+border-radius: 16px ;
+opacity: 0.8px;
+background-color: rgba(252,252,253,255);
+box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08);
+margin-top: -400px;
+
+}
+
+
+
+
+
+    input[type=text], select {
+        width:100%;
+        padding: 12px 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        display: inline-block;
+        border: 1px solid   rgba(190, 220, 237, 1);
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family: Mulish;
+        height: 48px;
+        border: 1px 0px 0px 0px;
+
+        
+
+      }
+      .top-name{
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 16px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: rgba(39, 103, 138, 1);
+        
+              
+      }
+    
+      
+      .box-style {
+        border-radius: 5px;
+    margin: 40px 40px 0px 40px;
+}
+        
+      
+
+#fill-in{
+font-family: Mulish;
+font-size: 16px;
+font-weight: 600;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color:rgba(198, 198, 198, 1);
+
+}
+
+.Shape-style{
+  width:458px;
+   height:80px;
+   padding-left: 41px;
+}
+
+  .circle-shape1 {
+    height: 80px;
+    width: 80px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08);
+    background-color: rgba(39, 103, 138, 1);
+    border-radius: 50%;
+    display: inline-block;
+    color:#ffffff;
+margin-right:30px;
+
+  }
+  .text1{
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 15px;
+  }
+
+  .circle-shape2{
+    height: 80px;
+    width: 80px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.08);
+    background-color:#ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    color: rgba(39, 103, 138, 1);
+    font-family: Mulish;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-right:30px;
+  }
+
+  input[type=text2], select {
+
+
+    width:458px;
+height: 300px;
+margin-left: 61px;
+    padding:10px 0px 150px 0px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 1px solid   rgba(190, 220, 237, 1);
+    border-color:rgba(190, 220, 237, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Mulish;
+    height: 48px;
+    border: 1px 0px 0px 0px;
+  }
+
+  .bottom-button {
+    width: 301px;
+    height: 50px;
+    padding: 14px 20px 14px 20px;
+    border-radius: 5px;
+    border:1px solid  rgba(39, 103, 138, 1);
+    font-family: Poppins;
+    color: #FFFFFF;
+    box-sizing: border-box;
+   margin-top: 10px;
+background-color:rgba(39, 103, 138, 1);
+    text-align: center;
+    float: left;
+    margin-left: 150px;
+}
+
+.section10{
+  background-color: rgba(29, 77, 103, 1);
+  width:100vw;
+  height: 327px;
+  padding-top: 20px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  
+  }
+  .section10 img{
+      width: 101px;
+      height: 37px;
+      margin-left:79px;
+      
+      }
+      .section10  h2{
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 18px;
+          text-align:left;
+          color:rgba(255, 255, 255, 1);
+          
+          
+          
+      
+      
+          
+      
+      }
+      .section10  p{
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17px;
+      text-align:left;
+      color: rgba(190, 220, 237, 1);
+      
+      
+      
+      
+      }
+      nav .left-side2{
+          width:300px;
+          float:left;
+      }
+      
+      nav .right-side2 {
+          float: left;
+          width: 724px;
+          margin-top: 20px;
+      }
+  .section11{
+      width: 100vw;
+  height: 61px;
+  background-color: rgba(24, 64, 86, 1);
+  margin:0%;
+  float: left;
+  
+  
+  }
+  .section11 .foot{
+  left: 626px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  padding-left: 520px;
+  color: rgba(233, 243, 249, 1);
+  
+  
+  
+  }
+  
+  
+  .section10 .column1 {
+      float: left;
+      width: 150px;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    .section10 .column2 {
+      float: left;
+      width: 150px;
+      padding: 10px;
+      height: 300px; 
+    }
+    .section10 .column3 {
+      float: left;
+      width: 150px;
+      padding: 10px;
+      height: 300px; 
+    }
+    .section10 .column4 {
+      float: left;
+      width: 150px;
+      padding: 10px;
+      height: 300px; 
+    }
+  
+    /* Clear floats after the columns */
+  .section10   .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+      @media (max-width: 480px) {
+       .container1 nav{
+           display: none;
+       }
+       .container1{
+           max-width: 100vw;
+          overflow-x: hidden;
+       }
+       .container2{
+        max-width: 100vw;
+       
+    }
+
+    .container1  h2{
+      font-family: Poppins;
+font-weight: 600;
+font-size: 32px;
+line-height: 48px;
+    }
+    .container1  p{
+      left: 16px;
+      font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+
+      
+    }
+
+
+    
+       .box{
+        width: 360px;
+        height: 1100px;
+        margin-left: 30px;
+        margin-top: -500px;
+}
+       
+
+     .box-style  #fill-in{
+       display: visible;
+        
+       }
+    
+       input[type=text2], select{
+        width: 310px;
+        margin-left: 30px;
+       }
+       .Shape-style{
+        width: 311px;
+        height: 115px;
+        left: 40px;
+
+       }
+      .circle-shape1{
+        width: 56px;
+      height: 56px;
+      margin-right: 10px;
+
+      }
+       .circle-shape2{
+        width: 56px;
+        height: 56px;
+        margin-right:10px;
+
+       }
+       .text1{
+      
+  font-family: Mulish;
+font-weight: 600;
+font-size: 10px;
+line-height: 16px;
+text-align: center;
+padding-top: 10px;
+
+       }
+       .bottom-button {
+        margin-left: 40px;
+        width: 200px;
+        margin-left: 80px;
+    }
+
+    .section10{
+      width:100vw;
+  height: 600px;
+  margin-top:120px;
+  
+  
+  
+      }
+
+  
+   nav .section10  {
+      max-width:100vw;
+      display: flow;
+      
+  }
+  .section10 img{
+      display: visible;
+      
+      }
+      .section10  h2{
+          display:visible;
+          
+      } 
+          
+      nav{
+      width:100vw;
+      }
+      
+          
+      .section10  p{
+      display:visible;
+      
+      }
+  
+  
+      nav .left-side2{
+          display:flow;
+          float:none;
+          margin-left:-72px;
+      }
+      
+        nav .right-side2 {
+          display:flow;
+          float:none;
+          width:100vw;
+      }
+  
+      .section10 .column1 {
+          float:none;
+          height:150px;
+        }
+        
+  
+        .section10 .column2 {
+          height:150px;
+          float: right;
+          margin-top: -180px;
+          width:40vw;
+        }
+        .section10 .column3 {
+          float:none;
+          height:150px;
+        }
+        .section10 .column4 {
+          height:150px;
+          float: right;
+          margin-top: -180px;
+          width:40vw;
+        }
+        .section10 .column2 h2{
+          margin-left: -30px;
+        }
+        .section10  .column2  p{
+          margin-left: -30px;
+        }
+  
+        .section10 .column4 h2{
+          margin-left: -30px;
+        }
+        .section10 .column4 p{
+          margin-left: -30px;
+        }
+        /* Clear floats after the columns */
+      .section10   .row:after {
+          display:visible;
+  }
+  .section11{
+      width:100vw;
+  
+  
+  }
+  .foot{
+      width:100vw;
+      
+  }
+  .section11 .foot {
+      width:100vw;
+       text-align: center; 
+       padding-left: 0px;
+       
+  
+
+       }
+      }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width    initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<style>
+    body{
+        background-color: #ffffff;
+    }
+    .container{
+        width:30%;
+        height: 500px;
+        background-color: #3f3939;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+  
+}
+    
+.text{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin:10px;
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , blue);
+  
+}
+
+
+.container-one{
+    width:90%;
+    height:40px;
+    border-color: #ffffff;
+    box-sizing: border-box;
+    border-style: groove;
+    margin-left: auto;
+    margin:15px;
+}
+
+#numbers{
+    color:#ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+
+#numbers2{
+    color:#ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+#numbers3{
+    color:#ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+#numbers4{
+    color:#ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+</style>
+    <body >
+<div class="container">
+    <h4 class="text"><b>Calculator</b></h4>
+    <div class="container-one">
+        <p id="numbers"></p>
+    </div>
+    <div class="container-one">
+    <p id="numbers2"></p>
+    </div>
+        <div class="container-one">
+<p id="numbers3"></p>
+        </div>
+<div class="container-one">
+<p id="numbers4"></p>
+</div>
+
+</div>
+
+
+    </body>
+    <script type="text/javascript">
+            let results = document.getElementById("numbers");
+            let results2 = document.getElementById("numbers2");
+            let results3 =document.getElementById("numbers3")
+            let results4  =document.getElementById("numbers4")
+
+            let  x= "20";
+            let  y = "25";
+            let  z = "30";
+            //*  Assign the first variable multiplied by 2 to a fourth variable*//
+            let number4 =x*2;
+            let number5=y/4;
+            let number6=z+number5;
+           let number7=x+y+z;
+
+            results.innerHTML = number4;
+            results2.innerHTML = number5
+            results3.innerHTML = number6
+            results4.innerHTML =number7;
+        </script>
+
+</html>
+<script></script>

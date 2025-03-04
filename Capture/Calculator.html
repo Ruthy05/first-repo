@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width    initial-scale=1.0">
+        <title>Document</title>
+    </head>
+<style>
+    body{
+        background-color: #ffffff;
+    }
+    .container{
+        width:30%;
+        height: 500px;
+        background-color: #3f3939;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+  
+}
+    
+.text{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin:10px;
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , blue);
+  
+}
+
+
+#container-one{
+    width:90%;
+    height:70px;
+    border-color:#ffffff;
+    box-sizing: border-box;
+    border-style: groove;
+    margin-left: auto;
+    margin:15px;
+    background-color: #3f3939;
+    color:white;
+}
+.Calculator{
+    width:calc(100%/4);
+    float:left;
+    text-align: center;
+    height:40px;
+    
+}
+
+.section{
+    margin-top:180px;
+}
+.btn-yellow {
+    background: rgb(16, 18, 104);
+    color: #fff;
+}.btn-grey {
+    background: rgb(224, 224, 224);
+    color: #000;
+}.btn-green {
+    background: green;
+    color: #fff;
+}.btn-blue {
+    background: rgb(30, 48, 214);
+    color: #fff;
+}
+.btn-grey{
+    background: grey;
+}
+button{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    border:none;
+    font-size: 16px;
+    cursor:pointer;
+    background-color: #ffffff;
+}
+button:hover{
+    background-color:#662323;
+}
+
+
+</style>
+<body >
+<div class="container">
+<h4 class="text"><b>Calculator</b></h4>
+<div>
+<input id="container-one" readonly/>
+</div>
+    
+
+<div class="section">
+<section>
+    <button class="Calculator"  onClick="appendToDisplay('7')" >7</button>
+    <button class="Calculator"  onClick="appendToDisplay('8')" >8</button>
+    <button class="Calculator"   onClick="appendToDisplay('9')" >9</button>
+    <button class="Calculator  btn-grey"   onClick="appendToDisplay('*')">x</button>
+</section>
+<section>
+    <button class="Calculator"  onClick="appendToDisplay('4')">4</button>
+    <button  class="Calculator" onClick="appendToDisplay('5')">5</button>
+    <button class="Calculator"   onClick="appendToDisplay('6')">6</button>
+    <button   class="Calculator  btn-grey" onClick="appendToDisplay('-')">-</button>
+</section>
+<section>
+    <button class="Calculator" onclick="appendToDisplay('1')">1</button>
+    <button class="Calculator"  onClick="appendToDisplay('2')">2</button>
+    <button class="Calculator"   onClick="appendToDisplay('3')">3</button>
+    <button class="Calculator  btn-grey"    onClick="appendToDisplay('+')">+</button>
+</section>
+
+    <section>
+        <button class="Calculator   btn-yellow"   onClick="appendToDisplay('+/-')">+/-</button>
+        <button class="Calculator btn-blue   "   onClick="appendToDisplay('0')">0</button>
+        <button class="Calculator   btn-green"    onClick="appendToDisplay('.')">.</button>
+        <button class="Calculator  btn-blue "    onClick="calculate()">=</button>
+    </section>
+</div>
+</body>
+<script>
+  let screen = document.getElementById("container-one");  
+function appendToDisplay(input){
+    screen.value+=input;
+}
+
+
+
+ 
+    </script>
+</html>
